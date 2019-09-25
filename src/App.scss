@@ -1,0 +1,23 @@
+.text-orange {
+	color: #f15025;
+}
+.bg-orange {
+	background-color: #f15025;
+}
+.letter-spacing {
+	letter-spacing: 1rem;
+}
+.text-white {
+	color: white;
+}
+
+.header-hero,
+.default-hero {
+	min-height: 94vh;
+	background: linear-gradient(to bottom right, rgba(255, 185, 0, .5), rgba(255, 119, 48, .8)),
+		url("/img/home.jpg") center/cover no-repeat;
+}
+.default-hero {
+	background: linear-gradient(to bottom right, rgba(255, 185, 0, .5), rgba(255, 119, 48, .8)),
+		url("/img/default.jpg") center/cover no-repeat;
+}
